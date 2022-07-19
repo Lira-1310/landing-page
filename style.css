@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: -8px;
+}
+.img-header{
+  width:25%;
+}
+header,
+footer {
+  background-color: #1f2937;
+}
+.card-section,
+.quote-section,
+.ad-section {
+  min-height: 30vh;
+}
+.header .text {
+  font: 48px extra-bold #f9faf8;
+}
+.header .subtext {
+  font: 18px #e5e7eb;
+}
+.header-logo {
+  font: 24px #f9faf8;
+  font: 24px #f9faf8;
+  font-size: 24px;
+  color: #f9faf8;
+  /* display: block; */
+}
+.btn-signup {
+  background-color: #3882f6;
+}
+.info-header {
+  font: 36px extra-bold #1f2937;
+}
+.quote-section {
+  background-color: #e5e7eb;
+}
+.quote .text {
+  font: 36px light italic #1f2937;
+}
+footer {
+  margin-top: auto;
+  background-color: aliceblue;
+}
