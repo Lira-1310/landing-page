@@ -5,7 +5,12 @@
   margin: -8px;
 }
 .img-header {
-  width: 34%;
+  /* width: 34%; */
+  border-radius: 5%;
+  justify-self: flex-end;
+  align-self: flex-end;
+  height: auto;
+  flex-shrink: 0;
 }
 
 h1{
@@ -46,6 +51,7 @@ footer {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
+  margin-right: auto;
   /* display: block; */
 }
 .btn-signup, .call-to-action-section {
@@ -75,6 +81,61 @@ h3.text {
   font: 36px light-italic;
   color: #1f2837;
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+ul.header-link {
+  display: flex;
+  gap: 10px;
+}
+li.left-links {
+    margin-left: auto;
+}
+.header-content {
+    display: flex;
+    flex-flow: row nowrap;
+    /* gap: 10%; */
+    box-sizing: border-box;
+    padding: 5vh;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-content {}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-self: flex-start;
+    min-width: 30vh;
+    /* justify-content: center; */
+}
+.text, .img-header {
+    min-width: 30%;
+    max-width: 35%;
+}
+
+button.btn-signup {
+    /* display: inline-block; */
+    display: inline;
+}
+
+button.btn-signup {
+    /* max-width: 15%; */
+    max-width: 5rem;
+}
+
+h1, .subtext, .btn-signup {
+    margin: 0.5rem;
+}
+
 
 
 
