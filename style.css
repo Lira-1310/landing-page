@@ -4,32 +4,51 @@
   min-height: 100vh;
   margin: -8px;
 }
-.img-header{
-  width:25%;
+.img-header {
+  width: 34%;
 }
+
+h1{
+  font: 48px extra-bold;
+  color: #f9f8fa;
+}
+p.subtext, nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
+
+
+img.img-header {}
 header,
 footer {
   background-color: #1f2937;
 }
 .card-section,
 .quote-section,
-.ad-section {
+.call-to-action-section {
   min-height: 30vh;
 }
-.header .text {
-  font: 48px extra-bold #f9faf8;
-}
+
 .header .subtext {
-  font: 18px #e5e7eb;
+  font: 18px;
 }
+
 .header-logo {
   font: 24px #f9faf8;
   font: 24px #f9faf8;
   font-size: 24px;
   color: #f9faf8;
+  font-weight: bold;
   /* display: block; */
 }
-.btn-signup {
+.btn-signup, .call-to-action-section {
   background-color: #3882f6;
 }
 .info-header {
@@ -45,3 +64,17 @@ footer {
   margin-top: auto;
   background-color: aliceblue;
 }
+h2.info-header {
+  font: 36px extra-bold;
+  color: #1f2937;
+}
+
+
+
+h3.text {
+  font: 36px light-italic;
+  color: #1f2837;
+}
+
+
+
