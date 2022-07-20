@@ -9,28 +9,28 @@
   border-radius: 5%;
   justify-self: flex-end;
   align-self: flex-end;
-  height: auto;
+  max-height: 20rem;
+  margin-bottom: 2rem;
   flex-shrink: 0;
 }
 
-h1{
+h1 {
   font: 48px extra-bold;
   color: #f9f8fa;
 }
-p.subtext, nav a {
+p.subtext,
+nav a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
 }
 
-
 nav ul {
   list-style: none;
 }
 
-
-
-img.img-header {}
+img.img-header {
+}
 header,
 footer {
   background-color: #1f2937;
@@ -38,7 +38,9 @@ footer {
 .card-section,
 .quote-section,
 .call-to-action-section {
-  min-height: 30vh;
+  min-height: 40vh;
+  max-height: 25v;
+  /* border: 5px solid; */
 }
 
 .header .subtext {
@@ -54,7 +56,8 @@ footer {
   margin-right: auto;
   /* display: block; */
 }
-.btn-signup, .call-to-action-section {
+.btn-signup,
+.call-to-action-section {
   background-color: #3882f6;
 }
 .info-header {
@@ -73,9 +76,8 @@ footer {
 h2.info-header {
   font: 36px extra-bold;
   color: #1f2937;
+  text-align: center;
 }
-
-
 
 h3.text {
   font: 36px light-italic;
@@ -93,49 +95,81 @@ ul.header-link {
   gap: 10px;
 }
 li.left-links {
-    margin-left: auto;
+  margin-left: auto;
 }
 .header-content {
-    display: flex;
-    flex-flow: row nowrap;
-    /* gap: 10%; */
-    box-sizing: border-box;
-    padding: 5vh;
-    /* align-content: center; */
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-flow: row nowrap;
+  /* gap: 10%; */
+  box-sizing: border-box;
+  /* padding: 5vh; */
+  /* align-content: center; */
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.header-content {}
+.header-content {
+}
 
 .text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
-    align-self: flex-start;
-    min-width: 30vh;
-    /* justify-content: center; */
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  align-self: flex-start;
+  min-width: 30vh;
+  /* justify-content: center; */
 }
-.text, .img-header {
-    min-width: 30%;
-    max-width: 35%;
-}
-
-button.btn-signup {
-    /* display: inline-block; */
-    display: inline;
+.text,
+.img-header {
+  min-width: 30%;
+  max-width: 35%;
 }
 
 button.btn-signup {
-    /* max-width: 15%; */
-    max-width: 5rem;
+  /* display: inline-block; */
+  display: inline;
 }
 
-h1, .subtext, .btn-signup {
-    margin: 0.5rem;
+button.btn-signup {
+  /* max-width: 15%; */
+  max-width: 5rem;
 }
 
+h1,
+.subtext,
+.btn-signup {
+  margin: 0.5rem;
+}
 
+.card {
+  max-width: 15rem;
+  min-height: 20rem;
+  /* max-height: 200rem; */
+  /* border: 2px blue; */
+  border-sizing: 5px;
+  /* border-color: red; */
+  border: 1rem solid #008dff;
+  /* background-color: rebeccapurple; */
+  border-radius: 1.2rem;
+}
 
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-flow: row nowrap;
+}
 
+.card-column {
+  max-width: 18rem;
+}
+
+.text {
+  margin: 0;
+}
+
+.call-to-action-section {
+  margin-bottom: auto;
+}
